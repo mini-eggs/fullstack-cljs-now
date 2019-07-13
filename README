@@ -1,0 +1,9 @@
+ABOUT
+
+This is a Lein template for spinning up fullstack ClojureScript applications on
+Zeit's Now 2.0 offering. 
+
+USAGE
+
+lein new fullstack-cljs-now
+

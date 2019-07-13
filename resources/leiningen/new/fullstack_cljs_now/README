@@ -1,0 +1,41 @@
+ABOUT
+
+This is a Lein template for spinning up fullstack ClojureScript applications on
+Zeit's Now 2.0 offering. 
+
+REQUIREMENTS
+
+You must have node and npm installed. Before deploying you must login to the 
+Now CLI. If you don't have that installed run:
+
+$ npm i -g now
+
+then login:
+
+$ now login
+
+After you'll be able to run:
+
+$ npm run deploy
+
+as expected.
+
+SETUP
+
+$ npm install
+
+DEV
+
+$ npm start
+
+RELEASE 
+
+$ npm run compile
+
+DEPLOY
+
+$ npm run deploy
+
+ELSE
+
+Enjoy. 

@@ -1,0 +1,11 @@
+
+{:source-paths ["src"]
+ :dependencies []
+ :builds {:backend {:target :node-script
+                    :output-to "out/backend.js"
+                    :main backend.main/main!}
+          :frontend {:target :browser
+                     :output-dir "out/public"
+                     :modules {:main {:entries [frontend.main]}}}}}
+
+

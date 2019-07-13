@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "cljs",
+  "builds": [
+    { "src": "out/public/main.js", "use": "@now/static" },
+    { "src": "out/backend.js", "use": "@now/node", "config": {
+    "includeFiles": ["out/**/*"]}}
+  ],
+  "routes": [
+    { "src": "/", "dest": "out/backend.js" },
+    { "src": "/public/main.js", "dest": "out/public/main.js" }
+  ]
+}
